@@ -3,4 +3,4 @@
 - Motherboard : MSI Z370M MORTAR
 - CPU : Intel® Core™ i7-8700K
 
-![About This Mac](https://raw.githubusercontent.com/ArsnealX/Bootloader-Backup/master/AboutThisMac.jpeg)
+![About This Mac](https://raw.githubusercontent.com/ArsnealX/Bootloader-Backup/master/AboutThisMac.png)
