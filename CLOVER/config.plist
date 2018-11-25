@@ -89,6 +89,38 @@
 					<key>Replace</key>
 					<data>R0lHRQ==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI</string>
+					<key>Find</key>
+					<data>X09TSQ==</data>
+					<key>Replace</key>
+					<data>WE9TSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Find</key>
+					<data>RUhDMQ==</data>
+					<key>Replace</key>
+					<data>RUgwMQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Find</key>
+					<data>RUhDMg==</data>
+					<key>Replace</key>
+					<data>RUgwMg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHC1 to XHC</string>
+					<key>Find</key>
+					<data>WEhDMQ==</data>
+					<key>Replace</key>
+					<data>WEhDXw==</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -380,17 +412,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 10.14 BETA 2/3/4</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPD4MDBQAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
+				<string>disable port limit in XHCI kext (credit DalianSky,Ricky)</string>
 				<key>MatchOS</key>
-				<string>10.14.x</string>
+				<string>10.14.1,10.14.2</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Find</key>
+				<data>g/sPD4OPBAAA</data>
 				<key>Replace</key>
 				<data>g/sPkJCQkJCQ</data>
 			</dict>
