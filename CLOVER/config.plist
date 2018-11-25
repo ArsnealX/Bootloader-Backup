@@ -436,7 +436,7 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>MacPro6,1</string>
 		<key>Mobile</key>
 		<false/>
 		<key>Trust</key>
