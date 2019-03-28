@@ -423,22 +423,6 @@
 				<key>Replace</key>
 				<data>g32MGw==</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>disable port limit in XHCI kext (credit DalianSky,Ricky)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPD4OPBAAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.1,10.14.2</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g/sPkJCQkJCQ</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
