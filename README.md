@@ -1,5 +1,5 @@
 # Custom Mac Bootloader Backup
-- Clover Version: v2.5k r5099
+- Clover Version: https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5140
 - Motherboard : MSI Z370M MORTAR
 - CPU : Intel® Core™ i7-8700K
 
